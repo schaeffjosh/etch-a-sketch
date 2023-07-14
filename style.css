@@ -3,8 +3,15 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    background-color: bisque;
+}
+
+body {
+    background-color: burlywood;
+    width: 650px;
+    border-radius: 30px;
 }
 
 .sketchContainer {
@@ -33,5 +40,16 @@ html, body {
 .square:hover {
     background-color: grey;
     transition-delay: 0.0s;
-    transition: 0.0s
+    transition: 0.0s;
+}
+
+button {
+    background: rgb(66, 40, 4);
+    border: 1px solid;
+    border-radius: 8px;
+    color: burlywood;
+    width: 225px;
+    height: 50px;
+    font-size: 25px;
+    font-family:fantasy;
 }
